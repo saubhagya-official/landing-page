@@ -1,0 +1,22 @@
+
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .form-body{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .nav-link{
+    text-decoration:none;
+  }
+  
+  @media screen and (min-width: 480px) {
+    form{
+    background-color: pink;
+    }
+  }
